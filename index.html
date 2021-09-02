@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Append table</title>
+  </head>
+  <body>
+    <h1>Append table</h1>
+    <div class="one">
+      <input id="inputValue1" type="text" placeholder="vardas">
+      <input id="inputValue2" type="text" placeholder="pavardė">
+      <input id="inputValue3" type="text" placeholder="amžius">
+    </div>
+  <div class="two">
+    <button id=add>Pridėti</button>
+    <button id=removefirst>Ištrinti pirmą</button>
+    <button id=removelast>Ištrinti paskutinį</button>
+  </div>
+    <table id="table">
+      <tr>
+        <th>VARDAS</th>
+        <th id=lastname>PAVARDĖ</th>
+        <th>AMŽIUS</th>
+      </tr>
+      <tr id="row">
+        <td id="names"></td>
+        <td id="surname"></td>
+        <td id="age"></td>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>

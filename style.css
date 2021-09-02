@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+}
+div{
+
+}
+table {
+  font-family: helvetica;
+  border-collapse: collapse;
+  margin: 15px 15px 0 0;
+  }
+th {
+  background: #ffcc00;
+  padding: 20px;
+  text-align: center;
+  }
+td {
+  background: #332468;
+  padding: 20px;
+  padding-right: 100px;
+  color: white;
+  border: 1px solid #ffcc00;
+  }
+#lastname {
+  background: #d6ad07;
+  }
